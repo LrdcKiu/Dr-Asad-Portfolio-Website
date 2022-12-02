@@ -1,0 +1,9 @@
+.overall {
+  text-align: center;
+  padding-top: 50px;
+}
+.experiance {
+  display: flex;
+  /* position: absolute; */
+  justify-content: space-evenly;
+}

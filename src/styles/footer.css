@@ -1,0 +1,40 @@
+.footer {
+  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+  padding: 3vh;
+  background-color: #00273e;
+}
+.footer a {
+  margin-top: 2vh;
+  color: white;
+}
+.footer-main {
+  background-color: #00273e;
+  padding-bottom: 10px;
+}
+.footer-main p {
+  margin: 0px;
+  margin-left: 2vh;
+  color: white;
+  font-family: sans-serif;
+}
+@media screen and (max-width: 768px) {
+  .footer a {
+    font-size: 12px;
+  }
+  .footer-main p {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .footer {
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    padding: 3vh;
+    background-color: #00273e;
+  }
+}

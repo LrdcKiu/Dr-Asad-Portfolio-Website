@@ -1,0 +1,27 @@
+.image {
+  width: 100%;
+  position: relative;
+  /* margin-right: 3vh; */
+  /* margin-top: 10vh; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image .person {
+  /* position: absolute; */
+  width: 70%;
+  /* top: 0%;
+  right: 0%;
+  height: 590.3px; */
+}
+@media screen and (max-width: 970px) {
+  .image .person {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 760px) {
+  .image .person {
+    width: 60%;
+  }
+}

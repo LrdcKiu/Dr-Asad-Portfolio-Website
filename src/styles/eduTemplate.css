@@ -1,0 +1,19 @@
+.template {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.template p {
+  color: #dddddd;
+  margin: 0% !important;
+}
+.template h2 {
+  color: #dddddd;
+  margin: 0% !important;
+}
+.template h5 {
+  color: #dddddd;
+  margin: 0% !important;
+}

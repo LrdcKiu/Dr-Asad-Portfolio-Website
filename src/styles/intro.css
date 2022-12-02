@@ -1,0 +1,97 @@
+.name p {
+  /* position: absolute; */
+  color: black;
+  width: 48px;
+  height: 23px;
+  left: 0px;
+  top: 33px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #333333;
+}
+.intro {
+  /* position: absolute; */
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  /* left: 15vh; */
+  gap: 8px;
+  /* bottom: 30vh; */
+  width: 50%;
+  height: fit-content;
+  margin-left: 15vh;
+  margin-top: 20vh;
+  padding-bottom: 30vh;
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.name {
+  display: flex;
+  align-items: baseline;
+  justify-content: baseline;
+}
+.name h1 {
+  /* position: absolute; */
+  width: 273px;
+  /* height: 65px; */
+  left: 56px;
+  top: 0px;
+  margin: 0px !important;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 52px;
+  /* line-height: 65px; */
+  color: #333333;
+}
+
+.btns .btn1 {
+  background-color: #00d186;
+  border: none;
+  border-radius: 50px;
+  color: white;
+  cursor: pointer;
+  padding: 12px 25px;
+}
+.btns .btn2 {
+  background-color: transparent;
+  border: 1px solid #00d186;
+  border-radius: 50px;
+  cursor: pointer;
+  color: #00d186;
+  padding: 12px 25px;
+  margin-left: 15px;
+}
+@media screen and (max-width: 760px) {
+  .intro {
+    /* padding-bottom: 0px; */
+    width: 90%;
+    /* align-items: center; */
+    display: flex;
+    justify-content: center;
+    margin-left: 5px;
+    margin-top: 8vh;
+    padding-bottom: 11vh;
+    text-align: center;
+  }
+  .btns {
+    width: 100%;
+    align-items: center;
+  }
+  .name {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
